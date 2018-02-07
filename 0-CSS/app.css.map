@@ -3,15 +3,9 @@
 	"file": "app.css",
 	"sources": [
 		"../1-SASS/app.sass",
-		"../1-SASS/_variables.sass",
-		"../1-SASS/_mixins.sass",
-		"../1-SASS/0-plugins/_plugins-dir.sass",
 		"../1-SASS/1-base/_base-dir.sass",
-		"../1-SASS/1-base/_base.sass",
-		"../1-SASS/2-layouts/_layouts-dir.sass",
-		"../1-SASS/2-layouts/_layouts.sass",
-		"../1-SASS/3-modules/_modules-dir.sass"
+		"../1-SASS/1-base/_base.sass"
 	],
 	"names": [],
-	"mappings": "AOAA,AAAA,UAAU,CAAC;EACV,OAAO,EAAE,SAAS;CAAI"
+	"mappings": "AEAA,AAAA,UAAU,CAAC;EACV,OAAO,EAAE,SAAS;CAAI"
 }

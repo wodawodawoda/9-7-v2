@@ -11,12 +11,18 @@ var gameState = 'notStarted', //started // ended
 	computer = {
 		score: 0
 	};
+var winner = document.getElementById('winner')
 
 function checkPoints() {
 	if (player.score === 10 || computer.score === 10) {
 		console.log('Winner')
 		gameState = 'ended'
 		setGameElements()
+		if (player.score === 10) {
+			winner.innerHTML = 'The winner is ' + player.name 
+		} else {
+			winner.innerHTML = 'The winner is Computer'
+		}
 	}
 }
 
